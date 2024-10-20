@@ -7,3 +7,14 @@
     margin-block-start: auto;
   }
 }
+
+a {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: .0625em;
+  text-underline-offset: .2em;
+
+  &:hover {
+    text-decoration-style: solid;
+  }
+}

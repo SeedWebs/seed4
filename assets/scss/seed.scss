@@ -29,6 +29,23 @@ p {
   text-wrap: pretty;
 }
 
+a {
+  transition: all 0.3s ease-in-out;
+}
+
+main {
+  a {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: .0625em;
+    text-underline-offset: .2em;
+
+    &:hover {
+      text-decoration-style: solid;
+    }
+  }
+}
+
 /* Site Blocks */
 .wp-site-blocks {
   display: flex;
