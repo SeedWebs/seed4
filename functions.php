@@ -105,7 +105,6 @@ if (!function_exists('seed_block_styles')) :
             [
             'name' => 'rounded-sm',
             'label' => 'Rounded Small',
-            'is_default' => false,
             'inline_style' => '.is-style-rounded-sm img{border-radius: 5px}',
             ]
         );
@@ -114,7 +113,6 @@ if (!function_exists('seed_block_styles')) :
             [
             'name' => 'rounded-md',
             'label' => 'Rounded Medium',
-            'is_default' => false,
             'inline_style' => '.is-style-rounded-md img{border-radius: 10px}',
             ]
         );
@@ -123,7 +121,6 @@ if (!function_exists('seed_block_styles')) :
             [
             'name' => 'rounded-lg',
             'label' => 'Rounded Large',
-            'is_default' => false,
             'inline_style' => '.is-style-rounded-lg img{border-radius: 1rem}',
             ]
         );
@@ -132,7 +129,6 @@ if (!function_exists('seed_block_styles')) :
             [
             'name' => 'rounded-xl',
             'label' => 'Rounded XL',
-            'is_default' => false,
             'inline_style' => '.is-style-rounded-xl img{border-radius: 1.5rem}',
             ]
         );
@@ -141,7 +137,6 @@ if (!function_exists('seed_block_styles')) :
             [
             'name' => 'm-60',
             'label' => 'Mobile: 60%',
-            'is_default' => false,
             'inline_style' => '@media(max-width: 767px){.is-style-m-60 img{transform: scale(0.6)}}',
             ]
         );
@@ -150,7 +145,6 @@ if (!function_exists('seed_block_styles')) :
             [
             'name' => 'm-80',
             'label' => 'Mobile: 80%',
-            'is_default' => false,
             'inline_style' => '@media(max-width: 767px){.is-style-m-80 img{transform: scale(0.8)}}',
             ]
         );
@@ -160,10 +154,9 @@ if (!function_exists('seed_block_styles')) :
         register_block_style(
             $nav_blocks,
             [
-            'name' => 'outline',
+            'name' => 'nav-outline',
             'label' => 'Outline',
-            'is_default' => false,
-            'inline_style' => '.is-style-outline button{border: 1.5px solid;border-radius: 4px}',
+            'inline_style' => '.is-style-nav-outline button{border: 1.5px solid;border-radius: 4px}',
             ]
         );
 
@@ -174,7 +167,6 @@ if (!function_exists('seed_block_styles')) :
             [
             'name' => 'mobile-only',
             'label' => 'Mobile Only',
-            'is_default' => false,
             'inline_style' => '@media(min-width: 1024px){.is-style-mobile-only{display: none !important}}',
             ]
         );
@@ -183,8 +175,83 @@ if (!function_exists('seed_block_styles')) :
             [
             'name' => 'desktop-only',
             'label' => 'Desktop Only',
-            'is_default' => false,
             'inline_style' => '@media(max-width: 1023px){.is-style-desktop-only{display: none !important}}',
+            ]
+        );
+
+        // Overflow Hidden
+        $blocks = ['core/group'];
+        register_block_style(
+            $blocks,
+            [
+            'name' => 'overflow-hidden',
+            'label' => 'No Overflow',
+            'inline_style' => '.is-style-overflow-hidden{overflow: hidden}',
+            ]
+        );
+
+        // Aspect Ratio
+        $blocks = ['core/post-featured-image'];
+        register_block_style(
+            $blocks,
+            [
+            'name' => 'ratio-1200-630',
+            'label' => 'Ratio 120:63',
+            'inline_style' => '.is-style-ratio-1200-630 img{aspect-ratio: 120 / 63;object-fit: cover}',
+            ]
+        );
+        register_block_style(
+            $blocks,
+            [
+            'name' => 'ratio-3-2',
+            'label' => 'Ratio 3:2',
+            'inline_style' => '.is-style-ratio-3-2 img{aspect-ratio: 3 / 2;object-fit: cover}',
+            ]
+        );
+        register_block_style(
+            $blocks,
+            [
+            'name' => 'ratio-4-3',
+            'label' => 'Ratio 4:3',
+            'inline_style' => '.is-style-ratio-4-3 img{aspect-ratio: 4 / 3;object-fit: cover}',
+            ]
+        );
+        register_block_style(
+            $blocks,
+            [
+            'name' => 'ratio-1-1',
+            'label' => 'Ratio 1:1',
+            'inline_style' => '.is-style-ratio-1-1 img{aspect-ratio: 1 / 1;object-fit: cover}',
+            ]
+        );
+        register_block_style(
+            $blocks,
+            [
+            'name' => 'ratio-4-5',
+            'label' => 'Ratio 4:5',
+            'inline_style' => '.is-style-ratio-4-5 img{aspect-ratio: 4 / 5;object-fit: cover}',
+            ]
+        );
+
+        // Category Link
+        register_block_style(
+            'core/post-terms',
+            [
+            'name'         => 'term-outline',
+            'label'        => 'Outline',
+            'inline_style' => '
+              .is-style-term-outline a,
+              .is-style-term-outline span:not([class], [data-rich-text-placeholder]) {
+                display: inline-block;
+                border: 1px solid;
+                padding: 0.2em 0.6em;
+                border-radius: 4px;
+                text-decoration: none;
+                margin-right: 0.75em;
+              }
+              .is-style-term-outline .wp-block-post-terms__separator {
+                display: none;
+              }',
             ]
         );
     }
