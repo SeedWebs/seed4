@@ -310,6 +310,11 @@
     },
     {
       "area": "header",
+      "name": "header-banner",
+      "title": "Header with Banner"
+    },
+    {
+      "area": "header",
       "name": "header-centered",
       "title": "Centered Header"
     },
