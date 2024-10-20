@@ -1,0 +1,22 @@
+/*
+Theme Name: Seed
+Theme URI: https://github.com/seedWebs/seed
+Author: Seed Webs
+Author URI: https://seedwebs.com/
+Description: Seed is a flexible and minimalist WordPress Block Theme designed to be a powerful starting point for building fully customizable, modern websites with ease.
+Requires at least: 6.7-beta3
+Tested up to: 6.7-beta3
+Requires PHP: 5.7
+Version: 4.0.0-beta.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: seed
+Tags: block-patterns, featured-images, full-site-editing, block-styles
+
+/*
+===========================================
+
+This theme use SCSS, please check assets/scss/seed.scss for styles.
+
+=========================================== 
+*/

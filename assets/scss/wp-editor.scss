@@ -1,0 +1,9 @@
+.is-root-container.wp-site-blocks {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+
+  >footer {
+    margin-block-start: auto;
+  }
+}

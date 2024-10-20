@@ -1,0 +1,337 @@
+{
+  "version": 3,
+  "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+  "customTemplates": [
+    {
+      "name": "page-no-title",
+      "title": "Page No Title"
+    },
+    {
+      "name": "page-centered",
+      "title": "Page Centered"
+    }
+  ],
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "defaultDuotone": false,
+      "defaultGradients": false,
+      "defaultPalette": false,
+      "palette": [
+        {
+          "color": "#004999",
+          "name": "Accent 1",
+          "slug": "accent-1"
+        },
+        {
+          "color": "#1787d2",
+          "name": "Accent 2",
+          "slug": "accent-2"
+        },
+        {
+          "color": "#47be9d",
+          "name": "Accent 3",
+          "slug": "accent-3"
+        },
+        {
+          "color": "#67d88f",
+          "name": "Accent 4",
+          "slug": "accent-4"
+        },
+        {
+          "color": "#ffa900",
+          "name": "Accent 5",
+          "slug": "accent-5"
+        },
+        {
+          "color": "#ff4d00",
+          "name": "Accent 6",
+          "slug": "accent-6"
+        },
+        {
+          "color": "#f5f5f7",
+          "name": "Base",
+          "slug": "base"
+        },
+        {
+          "color": "#ffffff",
+          "name": "Base Alt",
+          "slug": "base-alt"
+        },
+        {
+          "color": "#023456",
+          "name": "Base Dark",
+          "slug": "base-dark"
+        },
+        {
+          "color": "#222222",
+          "name": "Contrast",
+          "slug": "contrast"
+        },
+        {
+          "color": "#71767f",
+          "name": "Contrast Alt",
+          "slug": "contrast-alt"
+        },
+        {
+          "color": "#d2d2d7",
+          "name": "Line",
+          "slug": "line"
+        },
+        {
+          "color": "#e2e2e7",
+          "name": "Line Alt",
+          "slug": "line-alt"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "750px",
+      "wideSize": "1200px"
+    },
+    "shadow": {
+      "defaultPresets": false,
+      "presets": [
+        {
+          "name": "Shadow Small",
+          "shadow": "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+          "slug": "shadow-sm"
+        },
+        {
+          "name": "Shadow",
+          "shadow": "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
+          "slug": "shadow"
+        },
+        {
+          "name": "Shadow Base",
+          "shadow": "0 1px 6px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.06)",
+          "slug": "shadow-base"
+        },
+        {
+          "name": "Shadow Medium",
+          "shadow": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+          "slug": "shadow-md"
+        },
+        {
+          "name": "Shadow Large",
+          "shadow": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+          "slug": "shadow-lg"
+        },
+        {
+          "name": "Shadow XL",
+          "shadow": "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
+          "slug": "shadow-xl"
+        },
+        {
+          "name": "Shadow 2XL",
+          "shadow": "0 25px 50px -12px rgb(0 0 0 / 0.25)",
+          "slug": "shadow-2xl"
+        },
+        {
+          "name": "Shadow Inner",
+          "shadow": "inset 0 2px 4px 0 rgb(0 0 0 / 0.05)",
+          "slug": "shadow-inner"
+        }
+      ]
+    },
+    "spacing": {
+      "defaultSpacingSizes": false,
+      "spacingSizes": [
+        {
+          "name": "4 → 6",
+          "size": "clamp(0.25rem, 0.65vw, 0.375rem)",
+          "slug": "20"
+        },
+        {
+          "name": "8 → 12",
+          "size": "clamp(0.5rem, 1.3vw, 0.75rem)",
+          "slug": "30"
+        },
+        {
+          "name": "16 → 24",
+          "size": "clamp(1rem, 2.6vw, 1.5rem)",
+          "slug": "40"
+        },
+        {
+          "name": "20 → 32",
+          "size": "clamp(1.25rem, 3.2vw, 2rem)",
+          "slug": "50"
+        },
+        {
+          "name": "24 → 36",
+          "size": "clamp(1.5rem, 3.9vw, 2.25rem)",
+          "slug": "60"
+        },
+        {
+          "name": "32 → 48",
+          "size": "clamp(2rem, 5.2vw, 3rem)",
+          "slug": "70"
+        },
+        {
+          "name": "48 → 72",
+          "size": "clamp(3rem, 7.8vw, 4.5rem)",
+          "slug": "80"
+        }
+      ],
+      "units": ["%", "px", "em", "rem", "vh", "vw"]
+    },
+    "typography": {
+      "defaultFontSizes": false,
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+          "name": "System Font",
+          "slug": "system-font"
+        },
+        {
+          "fontFace": [
+            {
+              "fontDisplay": "swap",
+              "fontFamily": "Noto Sans Thai",
+              "fontStyle": "normal",
+              "fontWeight": "100 900",
+              "src": ["file:./assets/fonts/notosans/notosansthai-var.woff2"]
+            }
+          ],
+          "fontFamily": "'Noto Sans Thai', sans-serif",
+          "name": "Noto Sans Thai",
+          "slug": "noto-sans-thai"
+        }
+      ],
+      "fontSizes": [
+        {
+          "name": "Small",
+          "size": "0.875rem",
+          "slug": "small",
+          "fluid": {
+            "min": "0.875rem",
+            "max": "0.9375rem"
+          }
+        },
+        {
+          "name": "Medium",
+          "size": "1rem",
+          "slug": "medium",
+          "fluid": {
+            "min": "1rem",
+            "max": "1.125rem"
+          }
+        },
+        {
+          "name": "Large",
+          "size": "1.375rem",
+          "slug": "large",
+          "fluid": {
+            "min": "1.25rem",
+            "max": "1.5rem"
+          }
+        },
+        {
+          "name": "X-Large",
+          "size": "1.5rem",
+          "slug": "x-large",
+          "fluid": {
+            "min": "1.375rem",
+            "max": "1.75rem"
+          }
+        },
+        {
+          "name": "XX-Large",
+          "size": "2rem",
+          "slug": "xx-large",
+          "fluid": {
+            "min": "1.75rem",
+            "max": "2.25rem"
+          }
+        }
+      ]
+    },
+    "useRootPaddingAwareAlignments": true
+  },
+  "styles": {
+    "color": {
+      "background": "var:preset|color|base",
+      "text": "var:preset|color|contrast"
+    },
+    "spacing": {
+      "blockGap": "1.25rem",
+      "padding": {
+        "left": "var:preset|spacing|40",
+        "right": "var:preset|spacing|40"
+      }
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|system-font",
+      "fontSize": "var:preset|font-size|medium",
+      "fontWeight": "400",
+      "lineHeight": "1.5"
+    },
+    "elements": {
+      "button": {
+        "border": {
+          "radius": "var:preset|spacing|20"
+        },
+        "color": {
+          "background": "var:preset|color|accent-1",
+          "text": "var:preset|color|base"
+        },
+        "spacing": {
+          "padding": {
+            "bottom": "var:preset|spacing|20",
+            "left": "var:preset|spacing|50",
+            "right": "var:preset|spacing|50",
+            "top": "var:preset|spacing|20"
+          }
+        }
+      },
+      "h1": {
+        "typography": {
+          "fontSize": "clamp(2rem, 4.7vw, 2.5rem)"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "var:preset|font-size|xx-large"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "var:preset|font-size|x-large"
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontSize": "var:preset|font-size|large"
+        }
+      },
+      "heading": {
+        "typography": {
+          "lineHeight": "1.3"
+        }
+      }
+    }
+  },
+  "templateParts": [
+    {
+      "area": "header",
+      "name": "header",
+      "title": "Header"
+    },
+    {
+      "area": "header",
+      "name": "header-centered",
+      "title": "Centered Header"
+    },
+    {
+      "area": "footer",
+      "name": "footer",
+      "title": "Footer"
+    },
+    {
+      "area": "footer",
+      "name": "footer-centered",
+      "title": "Centered Footer"
+    }
+  ]
+}
