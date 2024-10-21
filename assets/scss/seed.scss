@@ -33,18 +33,18 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-main {
-  a {
-    text-decoration: underline;
-    text-decoration-style: dashed;
-    text-decoration-thickness: .0625em;
-    text-underline-offset: .2em;
+a:where(:not(.wp-element-button)) {
+  text-decoration-style: dashed;
+  text-decoration-thickness: .0625em;
+  text-underline-offset: .25em;
+  text-decoration-color: var(--wp--preset--color--contrast-alt);
 
-    &:hover {
-      text-decoration-style: solid;
-    }
+  &:hover {
+    text-decoration-style: solid;
+    text-decoration-color: currentColor;
   }
 }
+
 
 /* Site Blocks */
 .wp-site-blocks {
