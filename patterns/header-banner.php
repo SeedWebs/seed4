@@ -17,8 +17,8 @@
         <!-- wp:navigation {"className":"is-style-outline is-style-nav-outline"} /-->
     </div>
     <!-- /wp:group -->
-    <!-- wp:group {"metadata":{"name":"Intro"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|50"}}},"layout":{"type":"constrained","wideSize":"600px"}} -->
-    <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50)"><!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"xx-large"} -->
+    <!-- wp:group {"metadata":{"name":"Intro"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|30"}}},"layout":{"type":"constrained","wideSize":"600px"}} -->
+    <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"xx-large"} -->
         <h1 class="wp-block-heading has-text-align-center has-xx-large-font-size" style="font-style:normal;font-weight:500">Start your site with Seed</h1>
         <!-- /wp:heading -->
         <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.8"}}} -->
@@ -32,9 +32,9 @@
         <!-- /wp:buttons -->
     </div>
     <!-- /wp:group -->
-    <!-- wp:group {"metadata":{"name":"Banner"},"align":"wide","layout":{"type":"constrained","contentSize":"","wideSize":"960px"}} -->
-    <div class="wp-block-group alignwide"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","align":"wide"} -->
-        <figure class="wp-block-image alignwide size-full"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/img/screen.webp" alt="" /></figure>
+    <!-- wp:group {"metadata":{"name":"Banner"},"align":"wide","layout":{"type":"constrained","contentSize":"810px","wideSize":"810px"}} -->
+    <div class="wp-block-group alignwide"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","align":"wide","style":{"border":{"radius":{"topLeft":"12px","topRight":"12px"}}}} -->
+        <figure class="wp-block-image alignwide size-full has-custom-border"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/img/browser.webp" alt="" style="border-top-left-radius:12px;border-top-right-radius:12px" /></figure>
         <!-- /wp:image -->
     </div>
     <!-- /wp:group -->

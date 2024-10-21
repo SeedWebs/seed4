@@ -305,6 +305,14 @@
           "text": "currentColor"
         }
       }
+    },
+    "blocks": {
+      "core/query-pagination": {
+        "css": "gap: 0;"
+      },
+      "core/query-pagination-numbers": {
+        "css": "{display:flex} & .page-numbers{text-decoration: none !important;padding: 0.25em;min-width: 2em;border-radius: 4px;text-align: center} & .current{background:var(--wp--preset--color--accent-1);color:var(--wp--preset--color--base)}"
+      }
     }
   },
   "templateParts": [
