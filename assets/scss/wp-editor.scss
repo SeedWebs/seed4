@@ -18,3 +18,11 @@ a {
     text-decoration-style: solid;
   }
 }
+
+code {
+  background-color: var(--wp--preset--color--contrast-alt);
+  color: var(--wp--preset--color--base);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 1rem;
+}

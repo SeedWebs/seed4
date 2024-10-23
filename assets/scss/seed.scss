@@ -2,6 +2,7 @@ html {
   font-size: 100%;
   font-family: sans-serif;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 *,
@@ -27,6 +28,14 @@ caption,
 figcaption,
 p {
   text-wrap: pretty;
+}
+
+code {
+  background-color: var(--wp--preset--color--contrast-alt);
+  color: var(--wp--preset--color--base);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 1rem;
 }
 
 a {
