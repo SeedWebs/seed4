@@ -104,7 +104,7 @@ if (!function_exists('seed_block_styles')) :
             $img_blocks,
             [
             'name' => 'rounded-sm',
-            'label' => 'Rounded Small',
+            'label' => 'Rounded S',
             'inline_style' => '.is-style-rounded-sm img{border-radius: 5px}',
             ]
         );
@@ -112,7 +112,7 @@ if (!function_exists('seed_block_styles')) :
             $img_blocks,
             [
             'name' => 'rounded-md',
-            'label' => 'Rounded Medium',
+            'label' => 'Rounded M',
             'inline_style' => '.is-style-rounded-md img{border-radius: 10px}',
             ]
         );
@@ -120,7 +120,7 @@ if (!function_exists('seed_block_styles')) :
             $img_blocks,
             [
             'name' => 'rounded-lg',
-            'label' => 'Rounded Large',
+            'label' => 'Rounded L',
             'inline_style' => '.is-style-rounded-lg img{border-radius: 1rem}',
             ]
         );
@@ -161,7 +161,7 @@ if (!function_exists('seed_block_styles')) :
         );
 
         // Responsive styles
-        $blocks = ['core/group', 'core/image', 'core/site-logo', 'core/buttons', 'core/button', 'core/spacer'];
+        $blocks = ['core/group', 'core/image', 'core/post-featured-image', 'core/site-logo', 'core/buttons', 'core/button', 'core/spacer'];
         register_block_style(
             $blocks,
             [
@@ -179,6 +179,17 @@ if (!function_exists('seed_block_styles')) :
             ]
         );
 
+        // Aspect Ratio
+        $blocks = ['core/post-featured-image'];
+        register_block_style(
+            $blocks,
+            [
+            'name' => 'ratio-1200-630',
+            'label' => 'Ratio 120:63',
+            'inline_style' => '.is-style-ratio-1200-630 img{aspect-ratio: 120 / 63;object-fit: cover}',
+            ]
+        );
+
         // Overflow Hidden
         $blocks = ['core/group'];
         register_block_style(
@@ -190,66 +201,93 @@ if (!function_exists('seed_block_styles')) :
             ]
         );
 
-        // Aspect Ratio
-        $blocks = ['core/post-featured-image'];
-        register_block_style(
-            $blocks,
-            [
-            'name' => 'ratio-1200-630',
-            'label' => 'Ratio 120:63',
-            'inline_style' => '.is-style-ratio-1200-630 img{aspect-ratio: 120 / 63;object-fit: cover}',
-            ]
-        );
-        register_block_style(
-            $blocks,
-            [
-            'name' => 'ratio-3-2',
-            'label' => 'Ratio 3:2',
-            'inline_style' => '.is-style-ratio-3-2 img{aspect-ratio: 3 / 2;object-fit: cover}',
-            ]
-        );
-        register_block_style(
-            $blocks,
-            [
-            'name' => 'ratio-4-3',
-            'label' => 'Ratio 4:3',
-            'inline_style' => '.is-style-ratio-4-3 img{aspect-ratio: 4 / 3;object-fit: cover}',
-            ]
-        );
-        register_block_style(
-            $blocks,
-            [
-            'name' => 'ratio-1-1',
-            'label' => 'Ratio 1:1',
-            'inline_style' => '.is-style-ratio-1-1 img{aspect-ratio: 1 / 1;object-fit: cover}',
-            ]
-        );
-        register_block_style(
-            $blocks,
-            [
-            'name' => 'ratio-4-5',
-            'label' => 'Ratio 4:5',
-            'inline_style' => '.is-style-ratio-4-5 img{aspect-ratio: 4 / 5;object-fit: cover}',
-            ]
-        );
-
-        // Category Link
+        // Term Link
         register_block_style(
             'core/post-terms',
             [
             'name'         => 'term-outline',
             'label'        => 'Outline',
             'inline_style' => '
+            .is-style-term-outline {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.75em;
+              }
               .is-style-term-outline a,
               .is-style-term-outline span:not([class], [data-rich-text-placeholder]) {
                 display: inline-block;
-                border: 1px solid;
+                border: 1px solid var(--wp--preset--color--line-alt);
+                background-color: var(--wp--preset--color--base-alt);
+                color: var(--wp--preset--color--contrast-alt);
                 padding: 0.2em 0.6em;
                 border-radius: 4px;
                 text-decoration: none;
-                margin-right: 0.75em;
+              }
+              .is-style-term-outline a:hover {
+                background-color: var(--wp--preset--color--accent-1);
+                border-color: var(--wp--preset--color--accent-1);
+                color: var(--wp--preset--color--base-alt);
               }
               .is-style-term-outline .wp-block-post-terms__separator {
+                display: none;
+              }',
+            ]
+        );
+        register_block_style(
+            'core/post-terms',
+            [
+            'name'         => 'term-button',
+            'label'        => 'Button',
+            'inline_style' => '
+              .is-style-term-button {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.75em;
+              }
+              .is-style-term-button a,
+              .is-style-term-button span:not([class], [data-rich-text-placeholder]) {
+                border: none;
+                background-color: var(--wp--preset--color--base-alt);
+                color: var(--wp--preset--color--contrast-alt);
+                box-shadow: var(--wp--preset--shadow--shadow);
+                padding: 0.2em 0.6em;
+                border-radius: 4px;
+                text-decoration: none;
+              }
+              .is-style-term-button a:hover {
+                background-color: var(--wp--preset--color--accent-1);
+                color: var(--wp--preset--color--base-alt);
+              }
+              .is-style-term-button .wp-block-post-terms__separator {
+                display: none;
+              }',
+            ]
+        );
+        register_block_style(
+            'core/post-terms',
+            [
+            'name'         => 'term-pill',
+            'label'        => 'Pill',
+            'inline_style' => '
+              .is-style-term-pill {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.75em;
+              }
+              .is-style-term-pill a,
+              .is-style-term-pill span:not([class], [data-rich-text-placeholder]) {
+                border: none;
+                background-color: var(--wp--preset--color--line-alt);
+                color: var(--wp--preset--color--contrast);
+                padding: 0.2em 1em;
+                border-radius: 99em;
+                text-decoration: none;
+              }
+              .is-style-term-pill a:hover {
+                background-color: var(--wp--preset--color--accent-1);
+                color: var(--wp--preset--color--base-alt);
+              }
+              .is-style-term-pill .wp-block-post-terms__separator {
                 display: none;
               }',
             ]
