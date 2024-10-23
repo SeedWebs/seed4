@@ -201,6 +201,16 @@ if (!function_exists('seed_block_styles')) :
             ]
         );
 
+        // Author Name Link
+        register_block_style(
+            ['core/post-author-name','core/comment-author-name'],
+            [
+            'name' => 'author-no-underline',
+            'label' => 'No Underline',
+            'inline_style' => '.is-style-author-no-underline a{text-decoration: none}',
+            ]
+        );
+
         // Term Link
         register_block_style(
             'core/post-terms',
