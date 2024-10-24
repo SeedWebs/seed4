@@ -47,7 +47,7 @@
         <!-- /wp:group -->
         <!-- wp:group {"metadata":{"name":"Map Icon (Desktop)"},"className":"is-style-desktop-only","layout":{"type":"constrained"}} -->
         <div class="wp-block-group is-style-desktop-only"><!-- wp:image {"lightbox":{"enabled":false},"width":"28px","sizeSlug":"full","linkDestination":"custom"} -->
-            <figure class="wp-block-image size-full is-resized"><a href="https://www.google.com/maps" target="_blank" rel=" noreferrer noopener"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/img/ic-map.webp" alt="Map" style="width:28px" /></a></figure>
+            <figure class="wp-block-image size-full is-resized"><a href="#" target="_blank" rel=" noreferrer noopener"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/img/ic-map.webp" alt="Map" style="width:28px" /></a></figure>
             <!-- /wp:image -->
         </div>
         <!-- /wp:group -->
