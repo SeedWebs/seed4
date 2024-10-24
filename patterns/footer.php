@@ -29,28 +29,28 @@
         <!-- /wp:group -->
         <!-- wp:group {"layout":{"type":"constrained"}} -->
         <div class="wp-block-group"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"0","top":"0"}}},"fontSize":"medium"} -->
-            <h2 class="wp-block-heading has-medium-font-size" style="margin-top:0;margin-bottom:0">Header</h2>
+            <h2 class="wp-block-heading has-medium-font-size" style="margin-top:0;margin-bottom:0">Platform</h2>
             <!-- /wp:heading -->
             <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"fontSize":"small"} -->
-            <p class="has-small-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Standard<br>Centered<br>Hero Banner<br>Icons<br>Top Bar</p>
+            <p class="has-small-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Themes<br>Plugins<br>Patterns<br>Cloud</p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
         <!-- wp:group {"layout":{"type":"constrained"}} -->
         <div class="wp-block-group"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"0","top":"0"}}},"fontSize":"medium"} -->
-            <h2 class="wp-block-heading has-medium-font-size" style="margin-top:0;margin-bottom:0">Footer</h2>
+            <h2 class="wp-block-heading has-medium-font-size" style="margin-top:0;margin-bottom:0">Showcase</h2>
             <!-- /wp:heading -->
             <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"fontSize":"small"} -->
-            <p class="has-small-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Dark Background<br>Light Background<br>1 Column<br>2 Columns<br>3 Columns</p>
+            <p class="has-small-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Corporate<br>Porfolio<br>Personal Blog<br>E-Commerce</p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
         <!-- wp:group {"layout":{"type":"constrained"}} -->
         <div class="wp-block-group"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"0","top":"0"}}},"fontSize":"medium"} -->
-            <h2 class="wp-block-heading has-medium-font-size" style="margin-top:0;margin-bottom:0">Content</h2>
+            <h2 class="wp-block-heading has-medium-font-size" style="margin-top:0;margin-bottom:0">About</h2>
             <!-- /wp:heading -->
             <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"fontSize":"small"} -->
-            <p class="has-small-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Intro<br>About<br>Team<br>Testimonial<br>Query Loop</p>
+            <p class="has-small-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">Mission<br>News<br>Terms<br>Privacy</p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
