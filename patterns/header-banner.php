@@ -14,7 +14,7 @@
             <!-- wp:site-title {"level":0,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"large"} /-->
         </div>
         <!-- /wp:group -->
-        <!-- wp:navigation {"className":"is-style-outline is-style-nav-outline"} /-->
+        <!-- wp:navigation {"icon":"menu","className":"is-style-outline is-style-nav-outline"} /-->
     </div>
     <!-- /wp:group -->
     <!-- wp:group {"metadata":{"name":"Intro"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|30"}}},"layout":{"type":"constrained","wideSize":"600px"}} -->
@@ -34,7 +34,7 @@
     <!-- /wp:group -->
     <!-- wp:group {"metadata":{"name":"Banner"},"align":"wide","layout":{"type":"constrained","contentSize":"960px","wideSize":"960px"}} -->
     <div class="wp-block-group alignwide"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","align":"wide","style":{"border":{"radius":{"topLeft":"12px","topRight":"12px"}}}} -->
-        <figure class="wp-block-image alignwide size-full has-custom-border"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/assets/img/browser.webp" alt="" style="border-top-left-radius:12px;border-top-right-radius:12px" /></figure>
+        <figure class="wp-block-image alignwide size-full has-custom-border"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/browser.webp" alt="" style="border-top-left-radius:12px;border-top-right-radius:12px" /></figure>
         <!-- /wp:image -->
     </div>
     <!-- /wp:group -->
