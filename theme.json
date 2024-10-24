@@ -344,6 +344,10 @@
   ],
   "customTemplates": [
     {
+      "name": "page-wide",
+      "title": "Page Wide"
+    },
+    {
       "name": "page-no-title",
       "title": "Page No Title"
     },
