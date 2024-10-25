@@ -5,7 +5,7 @@
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
  * @package Seed
- * @since Seed 1.0
+ * @since Seed 4.0
  */
 
 // Enqueue Styles
@@ -13,7 +13,7 @@ if (!function_exists('seed_enqueue_styles')) :
     /**
      * Enqueues style.css on the front.
      *
-     * @since Seed 1.0
+     * @since Seed 4.0
      *
      * @return void
      */
@@ -34,7 +34,7 @@ if (!function_exists('seed_editor_style')) :
     /**
      * Enqueues wp-editor.css in the editors.
      *
-     * @since Seed 1.0
+     * @since Seed 4.0
      *
      * @return void
      */
@@ -45,12 +45,33 @@ if (!function_exists('seed_editor_style')) :
 endif;
 add_action('after_setup_theme', 'seed_editor_style');
 
+// Enqueues wp-admin.css in the admin.
+if (!function_exists('seed_wp_admin_style')) :
+    /**
+     * Enqueues wp-admin.css in the admin.
+     *
+     * @since Seed 4.0
+     *
+     * @return void
+     */
+    function seed_wp_admin_style()
+    {
+        wp_enqueue_style(
+            'seed-admin',
+            get_parent_theme_file_uri('assets/css/wp-admin.css'),
+            [],
+            wp_get_theme()->get('Version')
+        );
+    }
+endif;
+add_action('admin_enqueue_scripts', 'seed_wp_admin_style');
+
 // Registers block binding sources.
 if (!function_exists('seed_register_block_bindings')) :
     /**
      * Registers the copyright block binding source.
      *
-     * @since Seed 1.0
+     * @since Seed 4.0
      *
      * @return void
      */
@@ -69,7 +90,7 @@ if (!function_exists('seed_copyright_binding')) :
     /**
      * Callback function for the copyright block binding source.
      *
-     * @since Seed 1.0
+     * @since Seed 4.0
      *
      * @return string Copyright text.
      */
@@ -92,7 +113,7 @@ if (!function_exists('seed_block_styles')) :
     /**
      * Registers block styles for the responsive.
      *
-     * @since Seed 1.0
+     * @since Seed 4.0
      *
      * @return void
      */
