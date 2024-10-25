@@ -160,6 +160,38 @@ if (!function_exists('seed_block_styles')) :
             ]
         );
 
+        // Search Styles
+        register_block_style(
+            ['core/search'],
+            [
+            'name' => 'search-no-button',
+            'label' => 'No Button',
+            'inline_style' => '@media(max-width: 599px){.is-style-search-no-button{order: -1}}
+                .is-style-search-no-button .wp-block-search__button{
+                    background: none;
+                    border: none;
+                    padding: 0 4px;
+                    color: inherit;
+                }
+                .is-style-search-no-button .wp-block-search__button svg{
+                    transform: scaleX(-1);
+                    height: 26px;
+                    width: 26px;
+                }
+                    
+                .is-style-search-no-button .wp-block-search__inside-wrapper {
+                    border-color: var(--wp--preset--color--line);
+                    border-radius: 4px;
+                    justify-content: flex-end;
+                }
+                .is-style-search-no-button .wp-block-search__input{
+                    padding: 4px 8px;
+                    line-height: 1.25;
+                    max-width: clamp(120px, 25vw, 240px);
+                }',
+            ]
+        );
+
         // Button Styles
         $button_blocks = ['core/buttons', 'core/button'];
         register_block_style(

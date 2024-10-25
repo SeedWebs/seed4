@@ -339,6 +339,11 @@
       "title": "Centered Header"
     },
     {
+      "area": "header",
+      "name": "header-topbar",
+      "title": "Header with Topbar"
+    },
+    {
       "area": "footer",
       "name": "footer",
       "title": "Footer"
