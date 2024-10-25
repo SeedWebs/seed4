@@ -160,6 +160,25 @@ if (!function_exists('seed_block_styles')) :
             ]
         );
 
+        // Button Styles
+        $button_blocks = ['core/buttons', 'core/button'];
+        register_block_style(
+            $button_blocks,
+            [
+            'name' => 'button-light',
+            'label' => 'Light Button',
+            'inline_style' => '
+            .is-style-button-light a,
+            .is-style-button-light .block-editor-rich-text__editable{
+                background: linear-gradient(to bottom, var(--wp--preset--color--base-alt), var(--wp--preset--color--base));
+                color: var(--wp--preset--color--base-dark);
+            }
+            .is-style-button-light a:hover{
+                transform: scale(1.04);
+            }',
+            ]
+        );
+
         // Responsive styles
         $blocks = ['core/group', 'core/image', 'core/post-featured-image', 'core/site-logo', 'core/buttons', 'core/button', 'core/spacer'];
         register_block_style(
@@ -178,6 +197,8 @@ if (!function_exists('seed_block_styles')) :
             'inline_style' => '@media(max-width: 1023px){.is-style-desktop-only{display: none !important}}',
             ]
         );
+
+
 
         // Aspect Ratio
         $blocks = ['core/post-featured-image'];
