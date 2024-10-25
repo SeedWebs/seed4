@@ -319,6 +319,9 @@
       },
       "core/separator": {
         "css": "border-top: 1px solid var(--wp--preset--color--line); border-bottom: 1px solid var(--wp--preset--color--base-alt)"
+      },
+      "core/button": {
+        "css": "&:hover { background: var(--wp--preset--color--accent-2); }"
       }
     }
   },
@@ -332,6 +335,11 @@
       "area": "header",
       "name": "header-banner",
       "title": "Header with Banner"
+    },
+    {
+      "area": "header",
+      "name": "header-banner-light",
+      "title": "Header with Light Banner"
     },
     {
       "area": "header",
