@@ -7,8 +7,8 @@
  * Description: Header with a light hero banner.
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Header with Banner"},"style":{"position":{"type":""},"dimensions":{"minHeight":""},"color":{"gradient":"linear-gradient(164deg,rgb(253,248,244) 1%,rgb(240,246,247) 49%,rgb(233,236,237) 98%)"}},"layout":{"inherit":"true","type":"constrained"}} -->
-<div class="wp-block-group has-background" style="background:linear-gradient(164deg,rgb(253,248,244) 1%,rgb(240,246,247) 49%,rgb(233,236,237) 98%)"><!-- wp:group {"metadata":{"name":"Container"},"align":"wide","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+<!-- wp:group {"metadata":{"name":"Header with Banner"},"style":{"position":{"type":""},"dimensions":{"minHeight":""},"color":{"gradient":"linear-gradient(164deg,rgb(255,254,254) 1%,rgb(240,246,247) 49%,rgb(234,234,235) 98%)"}},"layout":{"inherit":"true","type":"constrained"}} -->
+<div class="wp-block-group has-background" style="background:linear-gradient(164deg,rgb(255,254,254) 1%,rgb(240,246,247) 49%,rgb(234,234,235) 98%)"><!-- wp:group {"metadata":{"name":"Container"},"align":"wide","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
     <div class="wp-block-group alignwide" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
         <div class="wp-block-group"><!-- wp:site-logo {"width":36,"shouldSyncIcon":true,"className":"is-style-m-80","style":{"color":[]}} /-->
             <!-- wp:site-title {"level":0,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large"} /-->
@@ -38,7 +38,7 @@
     <!-- /wp:group -->
     <!-- wp:group {"metadata":{"name":"Banner"},"align":"wide","layout":{"type":"constrained","contentSize":"960px","wideSize":"960px"}} -->
     <div class="wp-block-group alignwide"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","align":"wide","style":{"border":{"radius":{"topLeft":"12px","topRight":"12px"}},"color":{"duotone":["#00234e","#ffffff"]}}} -->
-        <figure class="wp-block-image alignwide size-full has-custom-border"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/browser.webp" alt="" style="border-top-left-radius:12px;border-top-right-radius:12px" /></figure>
+        <figure class="wp-block-image alignwide size-full has-custom-border"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/browser.webp" alt="" style="border-top-left-radius:12px;border-top-right-radius:12px" /></figure>
         <!-- /wp:image -->
     </div>
     <!-- /wp:group -->
