@@ -2,7 +2,6 @@ html {
   font-size: 100%;
   font-family: sans-serif;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 *,
@@ -14,7 +13,12 @@ html {
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+}
+
+@media(max-width: 1023px) {
+  body {
+    overflow-x: hidden;
+  }
 }
 
 h1,
@@ -64,6 +68,12 @@ a:where(:not(.wp-element-button)) {
   >footer {
     margin-block-start: auto;
   }
+}
+
+header:has(.is-position-sticky) {
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 /* Helpers */
