@@ -7,8 +7,8 @@
  * Description: Footer with multiple columns.
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Footer"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|line"},":hover":{"color":{"text":"var:preset|color|base-alt"}}}},"spacing":{"padding":{"top":"var:preset|spacing|6-12","bottom":"var:preset|spacing|6-12"}}},"backgroundColor":"dark-base","textColor":"line","layout":{"inherit":true,"type":"constrained"}} -->
-<div class="wp-block-group has-line-color has-dark-base-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--6-12);padding-bottom:var(--wp--preset--spacing--6-12)"><!-- wp:group {"metadata":{"name":"Container"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+<!-- wp:group {"metadata":{"name":"Footer"},"style":{"elements":{"link":{":hover":{"color":{"text":"var:preset|color|dark-contrast"}},"color":{"text":"var:preset|color|dark-contrast-alt"}}},"spacing":{"padding":{"top":"var:preset|spacing|6-12","bottom":"var:preset|spacing|6-12"}}},"backgroundColor":"dark-base","textColor":"dark-contrast-alt","layout":{"inherit":true,"type":"constrained"}} -->
+<div class="wp-block-group has-dark-contrast-alt-color has-dark-base-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--6-12);padding-bottom:var(--wp--preset--spacing--6-12)"><!-- wp:group {"metadata":{"name":"Container"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
     <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:group {"metadata":{"name":"Brand"},"layout":{"type":"constrained"}} -->
         <div class="wp-block-group"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"0","top":"0"}}},"fontSize":"medium"} -->
             <h2 class="wp-block-heading has-medium-font-size" style="margin-top:0;margin-bottom:0">SEED 4.0</h2>
@@ -58,7 +58,7 @@
         <div class="wp-block-group"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"0","top":"0"}}},"fontSize":"medium"} -->
             <h2 class="wp-block-heading has-medium-font-size" style="margin-top:0;margin-bottom:0">Connect with us</h2>
             <!-- /wp:heading -->
-            <!-- wp:social-links {"iconColor":"base","iconColorValue":"#f5f5f7","openInNewTab":true,"className":"is-style-logos-only","style":{"spacing":{"blockGap":{"top":"0","left":"var:preset|spacing|30"},"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"0","right":"0"}}}} -->
+            <!-- wp:social-links {"iconColor":"dark-contrast-alt","iconColorValue":"#A49C8D","openInNewTab":true,"className":"is-style-logos-only","style":{"spacing":{"blockGap":{"top":"0","left":"var:preset|spacing|30"},"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"0","right":"0"}}}} -->
             <ul class="wp-block-social-links has-icon-color is-style-logos-only" style="margin-top:var(--wp--preset--spacing--30);margin-right:0;margin-bottom:var(--wp--preset--spacing--30);margin-left:0"><!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook","rel":""} /-->
                 <!-- wp:social-link {"url":"instagram.com/","service":"instagram"} /-->
                 <!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
