@@ -50,6 +50,14 @@ Source: http://www.google.com/get/noto/
 
 All images created by Seed Webs, creator of this theme.
 
+Abstract Background 1
+Free public domain CC0 image.
+banner-1.webp
+
+Abstract Background 2
+Free public domain CC0 image.
+banner-2.webp
+
 Browser
 Free public domain CC0 image.
 browser.webp

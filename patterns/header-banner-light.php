@@ -38,7 +38,7 @@
     <!-- /wp:group -->
     <!-- wp:group {"metadata":{"name":"Banner"},"align":"wide","layout":{"type":"constrained","contentSize":"960px","wideSize":"960px"}} -->
     <div class="wp-block-group alignwide"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","align":"wide","style":{"border":{"radius":{"topLeft":"12px","topRight":"12px"}},"color":{"duotone":["#00234e","#ffffff"]}}} -->
-        <figure class="wp-block-image alignwide size-full has-custom-border"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/browser.webp" alt="" style="border-top-left-radius:12px;border-top-right-radius:12px" /></figure>
+        <figure class="wp-block-image alignwide size-full has-custom-border"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/browser.webp" alt="" style="border-top-left-radius:12px;border-top-right-radius:12px" /></figure>
         <!-- /wp:image -->
     </div>
     <!-- /wp:group -->
