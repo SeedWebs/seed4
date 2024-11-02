@@ -1,0 +1,86 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Evening",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "color": "#BCAE95",
+          "name": "Accent 1",
+          "slug": "accent-1"
+        },
+        {
+          "color": "#C4AF88",
+          "name": "Accent 2",
+          "slug": "accent-2"
+        },
+        {
+          "color": "#E9CA9E",
+          "name": "Accent 3",
+          "slug": "accent-3"
+        },
+        {
+          "color": "#BB7C2F",
+          "name": "Accent 4",
+          "slug": "accent-4"
+        },
+        {
+          "color": "#F38702",
+          "name": "Accent 5",
+          "slug": "accent-5"
+        },
+        {
+          "color": "#D00F01",
+          "name": "Accent 6",
+          "slug": "accent-6"
+        },
+        {
+          "color": "#171713",
+          "name": "BG",
+          "slug": "base"
+        },
+        {
+          "color": "#232420",
+          "name": "BG Alt",
+          "slug": "base-alt"
+        },
+        {
+          "color": "#C9C5BE",
+          "name": "Text",
+          "slug": "contrast"
+        },
+        {
+          "color": "#AAA59E",
+          "name": "Text Alt",
+          "slug": "contrast-alt"
+        },
+        {
+          "color": "#6E706D",
+          "name": "Line",
+          "slug": "line"
+        },
+        {
+          "color": "#5D5E5C",
+          "name": "Line Alt",
+          "slug": "line-alt"
+        },
+        {
+          "color": "#36322B",
+          "name": "Dark BG",
+          "slug": "dark-base"
+        },
+        {
+          "color": "#BDBAB2",
+          "name": "Dark Text",
+          "slug": "dark-contrast"
+        },
+        {
+          "color": "#A49C8D",
+          "name": "Dark Text Alt",
+          "slug": "dark-contrast-alt"
+        }
+      ]
+    }
+  }
+}
