@@ -19,6 +19,16 @@
           "slug": "accent-2"
         },
         {
+          "color": "#F5F5F7",
+          "name": "BG",
+          "slug": "base"
+        },
+        {
+          "color": "#222222",
+          "name": "Text",
+          "slug": "contrast"
+        },
+        {
           "color": "#47BE9D",
           "name": "Accent 3",
           "slug": "accent-3"
@@ -38,21 +48,13 @@
           "name": "Accent 6",
           "slug": "accent-6"
         },
-        {
-          "color": "#F5F5F7",
-          "name": "BG",
-          "slug": "base"
-        },
+        
         {
           "color": "#FFFFFF",
           "name": "BG Alt",
           "slug": "base-alt"
         },
-        {
-          "color": "#222222",
-          "name": "Text",
-          "slug": "contrast"
-        },
+        
         {
           "color": "#71767F",
           "name": "Text Alt",

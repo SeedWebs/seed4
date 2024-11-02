@@ -1,7 +1,7 @@
 {
   "$schema": "https://schemas.wp.org/trunk/theme.json",
   "version": 3,
-  "title": "Evening",
+  "title": "Ground",
   "settings": {
     "color": {
       "palette": [
@@ -11,9 +11,19 @@
           "slug": "accent-1"
         },
         {
-          "color": "#C4AF88",
+          "color": "#DAC293",
           "name": "Accent 2",
           "slug": "accent-2"
+        },
+        {
+          "color": "#171713",
+          "name": "BG",
+          "slug": "base"
+        },
+        {
+          "color": "#C9C5BE",
+          "name": "Text",
+          "slug": "contrast"
         },
         {
           "color": "#E9CA9E",
@@ -35,21 +45,13 @@
           "name": "Accent 6",
           "slug": "accent-6"
         },
-        {
-          "color": "#171713",
-          "name": "BG",
-          "slug": "base"
-        },
+        
         {
           "color": "#232420",
           "name": "BG Alt",
           "slug": "base-alt"
         },
-        {
-          "color": "#C9C5BE",
-          "name": "Text",
-          "slug": "contrast"
-        },
+        
         {
           "color": "#AAA59E",
           "name": "Text Alt",
