@@ -1,21 +1,20 @@
 == Seed ==
 
 Contributors: Seed Webs
-Requires at least: 6.7-beta3
-Tested up to: 6.7-beta3-59256
+Requires at least: 6.7
+Tested up to: 6.7-RC2
 Requires PHP: 7.4
-License: GPLv3
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 == Description ==
 
-Seed is a flexible and minimalist WordPress Block Theme designed to be a powerful starting point for building fully customizable, modern websites with ease.
+Seed is a WordPress Block Theme designed to be a powerful starting point for building fully customizable, modern websites with ease.
 
 == Changelog ==
 
 = 4.0.0-beta.1 =
-* Not ready for production.
 * Refactored the theme to be a true Block Theme.
 
 
@@ -37,8 +36,32 @@ GNU General Public License for more details.
 
 == Fonts ==
 
-Noto Sans Thai
-Copyright 2022 The Noto Project Authors (https://github.com/notofonts/thai)
-Source: http://www.google.com/get/noto/
-License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+.ttf files downloaded from fonts.google.com have been converted to .woff2 using
+https://github.com/google/woff2
 
+Noto Sans Thai
+Copyright 2022 The Noto Project Authors
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Reference: https://github.com/notofonts/thai
+Source: http://www.google.com/get/noto/
+
+
+== Images ==
+
+All images created by Seed Webs, creator of this theme.
+
+Browser
+Free public domain CC0 image.
+browser.webp
+
+Map Icon
+Free public domain CC0 image.
+ic-map.webp
+
+Phone Icon
+Free public domain CC0 image.
+ic-phone.webp
+
+Sample Seed Icon
+Free public domain CC0 image.
+icon.webp
