@@ -6,7 +6,7 @@
     flex-direction: column;
     min-height: 100dvh;
 
-    body.block-editor-iframe__body & {
+    body.block-editor-iframe__body &:not(:has(footer.block-editor-block-list__layout)) {
       min-height: unset;
     }
 
