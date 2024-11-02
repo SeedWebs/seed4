@@ -9,69 +9,79 @@
       "defaultPalette": false,
       "palette": [
         {
-          "color": "#004999",
+          "color": "#074488",
           "name": "Accent 1",
           "slug": "accent-1"
         },
         {
-          "color": "#1787d2",
+          "color": "#005ABA",
           "name": "Accent 2",
           "slug": "accent-2"
         },
         {
-          "color": "#47be9d",
+          "color": "#47BE9D",
           "name": "Accent 3",
           "slug": "accent-3"
         },
         {
-          "color": "#67d88f",
+          "color": "#67D88F",
           "name": "Accent 4",
           "slug": "accent-4"
         },
         {
-          "color": "#ffa900",
+          "color": "#FFA900",
           "name": "Accent 5",
           "slug": "accent-5"
         },
         {
-          "color": "#ff4d00",
+          "color": "#FF4D00",
           "name": "Accent 6",
           "slug": "accent-6"
         },
         {
-          "color": "#f5f5f7",
-          "name": "Base",
+          "color": "#F5F5F7",
+          "name": "BG",
           "slug": "base"
         },
         {
-          "color": "#ffffff",
-          "name": "Base Alt",
+          "color": "#FFFFFF",
+          "name": "BG Alt",
           "slug": "base-alt"
         },
         {
-          "color": "#023456",
-          "name": "Base Dark",
-          "slug": "base-dark"
-        },
-        {
           "color": "#222222",
-          "name": "Contrast",
+          "name": "Text",
           "slug": "contrast"
         },
         {
-          "color": "#71767f",
-          "name": "Contrast Alt",
+          "color": "#71767F",
+          "name": "Text Alt",
           "slug": "contrast-alt"
         },
         {
-          "color": "#cccccf",
+          "color": "#CCCCCF",
           "name": "Line",
           "slug": "line"
         },
         {
-          "color": "#e2e2e7",
+          "color": "#E2E2E7",
           "name": "Line Alt",
           "slug": "line-alt"
+        },
+        {
+          "color": "#023456",
+          "name": "Dark BG",
+          "slug": "dark-base"
+        },
+        {
+          "color": "#EEEEEF",
+          "name": "Dark Text",
+          "slug": "dark-contrast"
+        },
+        {
+          "color": "#C5C5C7",
+          "name": "Dark Text Alt",
+          "slug": "dark-contrast-alt"
         }
       ]
     },

@@ -6,12 +6,13 @@
  */
 ?>
 <!-- wp:group {"align":"wide","className":"is-style-overflow-hidden","style":{"shadow":"var:preset|shadow|shadow","border":{"radius":"5px"},"spacing":{"blockGap":"0"}},"backgroundColor":"base-alt","layout":{"type":"constrained","contentSize":""}} -->
-<div class="wp-block-group alignwide is-style-overflow-hidden has-base-alt-background-color has-background" style="border-radius:5px;box-shadow:var(--wp--preset--shadow--shadow)"><!-- wp:media-text {"align":"wide","mediaId":256,"mediaLink":"http://seed4.local/banner-10/","mediaType":"image","verticalAlignment":"center","imageFill":true} -->
+<div class="wp-block-group alignwide is-style-overflow-hidden has-base-alt-background-color has-background" style="border-radius:5px;box-shadow:var(--wp--preset--shadow--shadow)">
+    <!-- wp:media-text {"align":"wide","mediaId":256,"mediaLink":"http://seed4.local/banner-10/","mediaType":"image","verticalAlignment":"center","imageFill":true} -->
     <div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center is-image-fill-element">
         <figure class="wp-block-media-text__media"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/banner-10-1024x538.webp" alt="" class="wp-image-256 size-full" style="object-position:50% 50%" /></figure>
         <div class="wp-block-media-text__content"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"0","right":"0"}},"dimensions":{"minHeight":""}},"layout":{"type":"constrained"}} -->
             <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--70);padding-right:0;padding-bottom:var(--wp--preset--spacing--70);padding-left:0"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"x-large"} -->
-                <h2 class="wp-block-heading has-x-large-font-size" style="margin-top:0;margin-bottom:0"><strong>Build a Website Without Code&nbsp;</strong></h2>
+                <h2 class="wp-block-heading has-x-large-font-size" style="margin-top:0;margin-bottom:0"><strong>Build a Website Without Code</strong></h2>
                 <!-- /wp:heading -->
                 <!-- wp:paragraph {"placeholder":"Content…","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"large"} -->
                 <p class="has-large-font-size" style="margin-top:0;margin-bottom:0"><strong>Using WordPress Site Editor</strong></p>

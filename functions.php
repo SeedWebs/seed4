@@ -223,8 +223,8 @@ if (!function_exists('seed_block_styles')) :
             'inline_style' => '
             .is-style-button-light a,
             .is-style-button-light .block-editor-rich-text__editable{
-                background: linear-gradient(to bottom, var(--wp--preset--color--base-alt), var(--wp--preset--color--base));
-                color: var(--wp--preset--color--base-dark);
+                background: var(--wp--preset--color--dark-contrast);
+                color: var(--wp--preset--color--dark-base);
             }
             .is-style-button-light a:hover{
                 transform: scale(1.04);

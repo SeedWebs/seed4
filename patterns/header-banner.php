@@ -7,8 +7,8 @@
  * Description: Header with a hero banner.
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Header with Banner"},"style":{"position":{"type":""},"elements":{"link":{"color":{"text":"var:preset|color|base-alt"}}},"dimensions":{"minHeight":""},"color":{"gradient":"linear-gradient(135deg,rgb(2,52,86) 2%,rgb(0,60,120) 99%)"}},"textColor":"base-alt","layout":{"inherit":"true","type":"constrained"}} -->
-<div class="wp-block-group has-base-alt-color has-text-color has-background has-link-color" style="background:linear-gradient(135deg,rgb(2,52,86) 2%,rgb(0,60,120) 99%)"><!-- wp:group {"metadata":{"name":"Container"},"align":"wide","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+<!-- wp:group {"metadata":{"name":"Header with Banner"},"style":{"position":{"type":""},"elements":{"link":{"color":{"text":"var:preset|color|dark-contrast"},":hover":{"color":{"text":"#fefefe"}}}}},"backgroundColor":"dark-base","textColor":"dark-contrast","layout":{"inherit":"true","type":"constrained"}} -->
+<div class="wp-block-group has-dark-contrast-color has-dark-base-background-color has-text-color has-background has-link-color"><!-- wp:group {"metadata":{"name":"Container"},"align":"wide","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
     <div class="wp-block-group alignwide" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
         <div class="wp-block-group"><!-- wp:site-logo {"width":36,"shouldSyncIcon":true,"className":"is-style-m-80","style":{"color":{"duotone":["#ffffff","#ffffff"]}}} /-->
             <!-- wp:site-title {"level":0,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large"} /-->
