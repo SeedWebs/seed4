@@ -65,6 +65,10 @@ a:where(:not(.wp-element-button)) {
   flex-direction: column;
   min-height: 100dvh;
 
+  body.block-editor-iframe__body & {
+    min-height: unset;
+  }
+
   >footer {
     margin-block-start: auto;
   }
