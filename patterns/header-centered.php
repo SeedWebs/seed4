@@ -25,10 +25,7 @@
         </div>
         <!-- /wp:group -->
         <!-- wp:group {"metadata":{"name":"Logo"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}},"layout":{"type":"constrained"}} -->
-        <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)"><!-- wp:image {"lightbox":{"enabled":false},"width":"56px","sizeSlug":"full","linkDestination":"custom","className":"is-style-m-80"} -->
-            <figure class="wp-block-image size-full is-resized is-style-m-80"><a href="/"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/logo-center.webp" alt="Logo" style="width:56px" /></a></figure>
-            <!-- /wp:image -->
-        </div>
+        <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)"><!-- wp:site-logo {"width":40} /--></div>
         <!-- /wp:group -->
         <!-- wp:group {"metadata":{"name":"Menu Right"},"className":"is-style-desktop-only","style":{"layout":{"selfStretch":"fixed","flexSize":"300px"},"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
         <div class="wp-block-group is-style-desktop-only"><!-- wp:paragraph -->
