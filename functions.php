@@ -9,7 +9,7 @@
  */
 
 // Enqueue Styles
-if (!function_exists('seed_enqueue_styles')) :
+if (!function_exists('seed4_enqueue_styles')) :
     /**
      * Enqueues style.css on the front.
      *
@@ -17,20 +17,20 @@ if (!function_exists('seed_enqueue_styles')) :
      *
      * @return void
      */
-    function seed_enqueue_styles()
+    function seed4_enqueue_styles()
     {
         wp_enqueue_style(
-            'seed',
+            'seed4',
             get_parent_theme_file_uri('assets/css/seed.css'),
             [],
             wp_get_theme()->get('Version')
         );
     }
 endif;
-add_action('wp_enqueue_scripts', 'seed_enqueue_styles');
+add_action('wp_enqueue_scripts', 'seed4_enqueue_styles');
 
 // Enqueues wp-editor.css in the editors.
-if (!function_exists('seed_editor_style')) :
+if (!function_exists('seed4_editor_style')) :
     /**
      * Enqueues wp-editor.css in the editors.
      *
@@ -38,15 +38,15 @@ if (!function_exists('seed_editor_style')) :
      *
      * @return void
      */
-    function seed_editor_style()
+    function seed4_editor_style()
     {
         add_editor_style(get_parent_theme_file_uri('assets/css/wp-editor.css'));
     }
 endif;
-add_action('after_setup_theme', 'seed_editor_style');
+add_action('after_setup_theme', 'seed4_editor_style');
 
 // Enqueues wp-admin.css in the admin.
-if (!function_exists('seed_wp_admin_style')) :
+if (!function_exists('seed4_wp_admin_style')) :
     /**
      * Enqueues wp-admin.css in the admin.
      *
@@ -54,7 +54,7 @@ if (!function_exists('seed_wp_admin_style')) :
      *
      * @return void
      */
-    function seed_wp_admin_style()
+    function seed4_wp_admin_style()
     {
         wp_enqueue_style(
             'seed-admin',
@@ -64,10 +64,10 @@ if (!function_exists('seed_wp_admin_style')) :
         );
     }
 endif;
-add_action('admin_enqueue_scripts', 'seed_wp_admin_style');
+add_action('admin_enqueue_scripts', 'seed4_wp_admin_style');
 
 // Registers block binding sources.
-if (!function_exists('seed_register_block_bindings')) :
+if (!function_exists('seed4_register_block_bindings')) :
     /**
      * Registers the copyright block binding source.
      *
@@ -75,18 +75,18 @@ if (!function_exists('seed_register_block_bindings')) :
      *
      * @return void
      */
-    function seed_register_block_bindings()
+    function seed4_register_block_bindings()
     {
         register_block_bindings_source(
             'seed/copyright',
             array(
-                'label'              => _x('&copy; (YEAR)', 'Label for the copyright placeholder in the editor', 'seed'),
-                'get_value_callback' => 'seed_copyright_binding',
+                'label'              => _x('&copy; (YEAR)', 'Label for the copyright placeholder in the editor', 'seed4'),
+                'get_value_callback' => 'seed4_copyright_binding',
             )
         );
     }
 endif;
-if (!function_exists('seed_copyright_binding')) :
+if (!function_exists('seed4_copyright_binding')) :
     /**
      * Callback function for the copyright block binding source.
      *
@@ -94,11 +94,11 @@ if (!function_exists('seed_copyright_binding')) :
      *
      * @return string Copyright text.
      */
-    function seed_copyright_binding()
+    function seed4_copyright_binding()
     {
         $copyright_text = sprintf(
             /* translators: 1: Copyright symbol or word, 2: Year */
-            esc_html__('%1$s %2$s', 'seed'),
+            esc_html__('%1$s %2$s', 'seed4'),
             '&copy;',
             wp_date('Y')
         );
@@ -106,10 +106,10 @@ if (!function_exists('seed_copyright_binding')) :
         return $copyright_text;
     }
 endif;
-add_action('init', 'seed_register_block_bindings');
+add_action('init', 'seed4_register_block_bindings');
 
 /* Block Style */
-if (!function_exists('seed_block_styles')) :
+if (!function_exists('seed4_block_styles')) :
     /**
      * Registers block styles for the responsive.
      *
@@ -117,7 +117,7 @@ if (!function_exists('seed_block_styles')) :
      *
      * @return void
      */
-    function seed_block_styles()
+    function seed4_block_styles()
     {
         // Image styles
         $img_blocks = ['core/image', 'core/site-logo'];
@@ -378,4 +378,4 @@ if (!function_exists('seed_block_styles')) :
         );
     }
 endif;
-add_action('init', 'seed_block_styles');
+add_action('init', 'seed4_block_styles');
