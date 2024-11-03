@@ -1,6 +1,6 @@
 <?php
 /**
- * Seed functions and definitions.
+ * Seed 4 functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *

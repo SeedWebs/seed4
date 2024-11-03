@@ -26,11 +26,11 @@
         <h1 class="wp-block-heading has-text-align-center has-xx-large-font-size" style="font-style:normal">Start your site with Seed</h1>
         <!-- /wp:heading -->
         <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.8"}}} -->
-        <p class="has-text-align-center" style="line-height:1.8">Seed 4.0 Free Block Theme is your go-to solution for effortlessly creating a professional website. With the power of WordPress and Site Editor, you can quickly build and customize your site without any coding skills.</p>
+        <p class="has-text-align-center" style="line-height:1.8">Seed 4 Free Block Theme is your go-to solution for effortlessly creating a professional website. With the power of WordPress and Site Editor, you can quickly build and customize your site without any coding skills.</p>
         <!-- /wp:paragraph -->
         <!-- wp:buttons {"className":"is-style-default","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
         <div class="wp-block-buttons is-style-default" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)"><!-- wp:button {"className":"is-style-fill","style":{"spacing":{"padding":{"left":"var:preset|spacing|40","right":"var:preset|spacing|40","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-            <div class="wp-block-button is-style-fill" style="font-style:normal;font-weight:500"><a class="wp-block-button__link wp-element-button" href="#" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)" target="_blank" rel="noreferrer noopener nofollow">Download Seed 4.0</a></div>
+            <div class="wp-block-button is-style-fill" style="font-style:normal;font-weight:500"><a class="wp-block-button__link wp-element-button" href="#" style="padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--40)" target="_blank" rel="noreferrer noopener nofollow">Download Seed 4</a></div>
             <!-- /wp:button -->
         </div>
         <!-- /wp:buttons -->

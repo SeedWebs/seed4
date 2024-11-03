@@ -32,10 +32,10 @@
                 <h2 class="wp-block-heading has-x-large-font-size" style="margin-top:0;margin-bottom:0"><strong>Intrinsic Design System</strong></h2>
                 <!-- /wp:heading -->
                 <!-- wp:paragraph {"placeholder":"Content…","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"large"} -->
-                <p class="has-large-font-size" style="margin-top:0;margin-bottom:0"><strong>with Seed - Block Theme</strong></p>
+                <p class="has-large-font-size" style="margin-top:0;margin-bottom:0"><strong>with Seed 4 - Block Theme</strong></p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph -->
-                <p>Seed theme uses the Intrinsic Design System to create fluid typography and spacing that adjust seamlessly across all screen sizes—no breakpoints needed. This adaptive approach ensures your content looks perfect on any device, letting you focus on your message without technical tweaks.</p>
+                <p>Seed 4 theme uses the Intrinsic Design System to create fluid typography and spacing that adjust seamlessly across all screen sizes—no breakpoints needed. This adaptive approach ensures your content looks perfect on any device, letting you focus on your message without technical tweaks.</p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
