@@ -1,4 +1,4 @@
-== Seed 4 ==
+== Seed4 ==
 
 Contributors: Seed Webs
 Requires at least: 6.7
@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Seed 4 is a WordPress Block Theme designed to be a powerful starting point for building fully customizable, modern websites with ease.
+Seed4 is a WordPress Block Theme designed to be a powerful starting point for building fully customizable, modern websites with ease.
 
 == Changelog ==
 
@@ -20,8 +20,8 @@ Seed 4 is a WordPress Block Theme designed to be a powerful starting point for b
 
 == Copyright ==
 
-Seed 4 WordPress Theme, (C) 2024 Seed Webs
-Seed 4 is distributed under the terms of the GNU GPL.
+Seed4 WordPress Theme, (C) 2024 Seed Webs
+Seed4 is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

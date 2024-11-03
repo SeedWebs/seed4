@@ -32,10 +32,10 @@
             <h2 class="wp-block-heading has-text-align-center has-large-font-size"><strong>Intrinsic Design </strong></h2>
             <!-- /wp:heading -->
             <!-- wp:paragraph {"align":"center","placeholder":"Content…","style":{"spacing":{"margin":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}},"fontSize":"medium"} -->
-            <p class="has-text-align-center has-medium-font-size" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"><strong>with Seed 4 theme</strong></p>
+            <p class="has-text-align-center has-medium-font-size" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"><strong>with Seed4 theme</strong></p>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph {"align":"center"} -->
-            <p class="has-text-align-center">Seed 4 theme uses the Intrinsic Design System to create fluid typography and spacing that adjust seamlessly across all screen sizes.</p>
+            <p class="has-text-align-center">Seed4 theme uses the Intrinsic Design System to create fluid typography and spacing that adjust seamlessly across all screen sizes.</p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:column -->
@@ -51,7 +51,7 @@
             <p class="has-text-align-center has-medium-font-size" style="margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)"><strong>with 100% GPL</strong></p>
             <!-- /wp:paragraph -->
             <!-- wp:paragraph {"align":"center"} -->
-            <p class="has-text-align-center">Seed 4 theme is fully open-source under the GPL license, empowering developers and creators to freely use, modify, and share.</p>
+            <p class="has-text-align-center">Seed4 theme is fully open-source under the GPL license, empowering developers and creators to freely use, modify, and share.</p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:column -->

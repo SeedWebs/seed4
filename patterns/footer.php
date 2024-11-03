@@ -11,7 +11,7 @@
 <div class="wp-block-group has-dark-contrast-alt-color has-dark-base-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--6-12);padding-bottom:var(--wp--preset--spacing--6-12)"><!-- wp:group {"metadata":{"name":"Container"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
     <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:group {"metadata":{"name":"Brand"},"layout":{"type":"constrained"}} -->
         <div class="wp-block-group"><!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"0","top":"0"}}},"fontSize":"medium"} -->
-            <h2 class="wp-block-heading has-medium-font-size" style="margin-top:0;margin-bottom:0">SEED 4</h2>
+            <h2 class="wp-block-heading has-medium-font-size" style="margin-top:0;margin-bottom:0">SEED4</h2>
             <!-- /wp:heading -->
             <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"fontSize":"small"} -->
             <p class="has-small-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">64/1 Wiang Tai, Pai, <br>Maehongson, Thailand 58130</p>

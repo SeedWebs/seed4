@@ -1,11 +1,11 @@
 <?php
 /**
- * Seed 4 functions and definitions.
+ * Seed4 functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Seed
- * @since Seed 4.0
+ * @package Seed4
+ * @since Seed4 4.0
  */
 
 // Enqueue Styles
@@ -13,7 +13,7 @@ if (!function_exists('seed4_enqueue_styles')) :
     /**
      * Enqueues style.css on the front.
      *
-     * @since Seed 4.0
+     * @since Seed4 4.0
      *
      * @return void
      */
@@ -34,7 +34,7 @@ if (!function_exists('seed4_editor_style')) :
     /**
      * Enqueues wp-editor.css in the editors.
      *
-     * @since Seed 4.0
+     * @since Seed4 4.0
      *
      * @return void
      */
@@ -50,7 +50,7 @@ if (!function_exists('seed4_wp_admin_style')) :
     /**
      * Enqueues wp-admin.css in the admin.
      *
-     * @since Seed 4.0
+     * @since Seed4 4.0
      *
      * @return void
      */
@@ -71,7 +71,7 @@ if (!function_exists('seed4_register_block_bindings')) :
     /**
      * Registers the copyright block binding source.
      *
-     * @since Seed 4.0
+     * @since Seed4 4.0
      *
      * @return void
      */
@@ -90,7 +90,7 @@ if (!function_exists('seed4_copyright_binding')) :
     /**
      * Callback function for the copyright block binding source.
      *
-     * @since Seed 4.0
+     * @since Seed4 4.0
      *
      * @return string Copyright text.
      */
@@ -113,7 +113,7 @@ if (!function_exists('seed4_block_styles')) :
     /**
      * Registers block styles for the responsive.
      *
-     * @since Seed 4.0
+     * @since Seed4 4.0
      *
      * @return void
      */
