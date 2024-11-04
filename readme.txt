@@ -14,7 +14,12 @@ Seed4 is a WordPress Block Theme designed to be a powerful starting point for bu
 
 == Changelog ==
 
+= 4.0.0.1 =
+* Date: 2024-11-04
+* Fixed: Page & Page Wide templates Title in wrong format.
+
 = 4.0.0 =
+* Date: 2024-11-02
 * Refactored the theme to be a true Block Theme.
 
 
