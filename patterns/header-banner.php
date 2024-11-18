@@ -26,7 +26,7 @@
         <h1 class="wp-block-heading has-text-align-center has-xx-large-font-size" style="font-style:normal">Start your site with Seed</h1>
         <!-- /wp:heading -->
         <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.8"}}} -->
-        <p class="has-text-align-center" style="line-height:1.8">Seed4 Free Block Theme is your go-to solution for effortlessly creating a professional website. With the power of WordPress and Site Editor, you can quickly build and customize your site without any coding skills.</p>
+        <p class="has-text-align-center" style="line-height:1.8">Introduction Text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi nisi, blandit sit amet justo in, euismod viverra augue. Cras et libero enim. Nullam tristique at lorem quis.</p>
         <!-- /wp:paragraph -->
         <!-- wp:buttons {"className":"is-style-default","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
         <div class="wp-block-buttons is-style-default" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50)"><!-- wp:button {"className":"is-style-button-light","style":{"spacing":{"padding":{"left":"var:preset|spacing|40","right":"var:preset|spacing|40","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
