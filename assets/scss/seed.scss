@@ -46,7 +46,7 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-a:where(:not(.wp-element-button)) {
+main a:where(:not(.wp-element-button)) {
   text-decoration-style: dashed;
   text-decoration-thickness: .0625em;
   text-underline-offset: .25em;
