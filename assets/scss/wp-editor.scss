@@ -35,3 +35,15 @@ code {
   border-radius: 4px;
   font-size: 1rem;
 }
+
+@media (max-width: 1023px) {
+  ._desktop {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  ._mobile {
+    display: none !important;
+  }
+}
