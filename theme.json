@@ -48,13 +48,13 @@
           "name": "Accent 6",
           "slug": "accent-6"
         },
-        
+
         {
           "color": "#FFFFFF",
           "name": "BG Alt",
           "slug": "base-alt"
         },
-        
+
         {
           "color": "#71767F",
           "name": "Text Alt",
@@ -320,6 +320,9 @@
       },
       "core/query-pagination": {
         "css": "gap: 0;"
+      },
+      "core/pullquote": {
+        "css": "padding: 1em 0;& blockquote{border-top: 2px solid var(--wp--preset--color--contrast-alt);border-bottom: 2px solid var(--wp--preset--color--contrast-alt);padding-top: 2em;padding-bottom: 2em;}"
       },
       "core/query-pagination-numbers": {
         "css": "{display:flex} & .page-numbers{text-decoration: none !important;padding: 0.25em;min-width: 2em;border-radius: 4px;text-align: center} & .current{background:var(--wp--preset--color--accent-1);color:var(--wp--preset--color--base)}"
