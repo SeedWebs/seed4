@@ -2,7 +2,7 @@
 
 Contributors: Seed Webs
 Requires at least: 6.7
-Tested up to: 6.7-RC2
+Tested up to: 6.7
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -13,6 +13,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Seed4 is a WordPress Block Theme designed to be a powerful starting point for building fully customizable, modern websites with ease.
 
 == Changelog ==
+
+= 4.0.1 =
+* Date: 2025-01-27
+* New: Add helper CSS Class. _mobile, _desktop.
+* Tweak: Pull Quote CSS.
+* Fixed: Sticky Header when Admin Bar is enabled.
 
 = 4.0.0.1 =
 * Date: 2024-11-04
@@ -25,7 +31,7 @@ Seed4 is a WordPress Block Theme designed to be a powerful starting point for bu
 
 == Copyright ==
 
-Seed4 WordPress Theme, (C) 2024 Seed Webs
+Seed4 WordPress Theme, (C) 2025 Seed Webs
 Seed4 is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
