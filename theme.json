@@ -330,6 +330,9 @@
       "core/separator": {
         "css": "border-top: 1px solid var(--wp--preset--color--line); border-bottom: 1px solid var(--wp--preset--color--base-alt)"
       },
+      "core/search": {
+        "css": "& .wp-block-search__input{border-radius: 4px;border: 1px solid var(--wp--preset--color--line)}"
+      },
       "core/button": {
         "css": "&:hover { background: var(--wp--preset--color--accent-2); }"
       }
