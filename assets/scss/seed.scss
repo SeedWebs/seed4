@@ -79,7 +79,9 @@ header:has(.is-position-sticky) {
   top: 0;
   z-index: 100;
 }
-
+.admin-bar header:has(.is-position-sticky) {
+    top: 32px;
+}
 /* Helpers */
 @media (max-width: 1023px) {
   ._desktop {
