@@ -46,6 +46,13 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
+header,
+footer {
+  a {
+    text-decoration: none;
+  }
+}
+
 main a:where(:not(.wp-element-button)) {
   text-decoration-style: dashed;
   text-decoration-thickness: .0625em;
@@ -78,10 +85,12 @@ header:has(.is-position-sticky) {
   position: sticky;
   top: 0;
   z-index: 100;
-}
-.admin-bar header:has(.is-position-sticky) {
+
+  .admin-bar & {
     top: 32px;
+  }
 }
+
 /* Helpers */
 @media (max-width: 1023px) {
   ._desktop {
