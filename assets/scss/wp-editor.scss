@@ -27,6 +27,14 @@ a {
   }
 }
 
+.no-underline {
+
+  &,
+  & a {
+    text-decoration: none;
+  }
+}
+
 .wp-block-code code,
 code {
   background-color: var(--wp--preset--color--contrast-alt);
