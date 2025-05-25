@@ -14,6 +14,11 @@ Seed4 is a WordPress Block Theme designed to be a powerful starting point for bu
 
 == Changelog ==
 
+= 4.0.2 =
+* Date: 2025-05-25
+* New: Helper Class - .no-underline
+* Tweak: No underline for links in header and footer.
+
 = 4.0.1 =
 * Date: 2025-01-27
 * New: Add helper CSS Class. _mobile, _desktop.
